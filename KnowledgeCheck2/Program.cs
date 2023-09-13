@@ -42,6 +42,9 @@ namespace KnowledgeCheck2
                 Console.WriteLine(pet.Name + ", the " + pet.Breed + ", is a good " + pet.Age + " year old cat");
             }
 
+
+            // Included exit key event to show results before exiting console
+            
             ConsoleKey continueKey = ConsoleKey.Q;
             Console.Write($"Press [{continueKey}] to quit...");
             while (Console.ReadKey(true).Key != continueKey)
